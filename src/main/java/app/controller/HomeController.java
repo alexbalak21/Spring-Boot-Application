@@ -9,6 +9,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String getMethodName() {
-        return "Hello from Spring Boot Application!";
+        return "<h1>Welcome to Spring Boot Application</h1>";
     }   
 }
